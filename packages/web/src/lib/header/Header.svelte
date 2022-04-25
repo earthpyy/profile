@@ -9,7 +9,7 @@
   }
 </script>
 
-<nav class="border-gray-200 px-2 sm:px-4 py-2.5 md:rounded dark:bg-gray-800">
+<nav class="px-2 sm:px-4 py-2.5">
   <div class="flex flex-wrap justify-end items-center">
     <button
       class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
