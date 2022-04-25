@@ -15,6 +15,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "@types/cookie": "^0.4.1",
     "@typescript-eslint/eslint-plugin": "^5.10.1",
     "@typescript-eslint/parser": "^5.10.1",
