@@ -12,11 +12,12 @@
 <nav class="px-2 sm:px-4 py-2.5">
   <div class="flex flex-wrap justify-end items-center">
     <button
-      class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      class="p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
       on:click={() => (menuOpened = !menuOpened)}
     >
       <i class="fas fa-xl fa-bars" />
     </button>
+
     <div class="w-full md:block md:w-auto md:mr-4" class:hidden={!menuOpened}>
       <ul class="flex flex-col mt-4 md:flex-row md:items-center md:space-x-8 md:mt-0 md:text-sm md:font-medium">
         <NavItem name="Home" pathname="/" />
