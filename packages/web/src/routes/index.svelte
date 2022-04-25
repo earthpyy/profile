@@ -6,10 +6,10 @@
   <title>Home</title>
 </svelte:head>
 
-<section>
-  <div class="p-12 max-w bg-primary rounded-lg shadow-lg text-white flex flex-row">
-    <div class="basis-1/3 px-5">test</div>
-    <div class="basis-2/3 px-5 text-center">
+<section class="tight-container">
+  <div class="p-12 max-w bg-primary rounded-t-xl shadow-lg text-white flex flex-row">
+    <div class="basis-1/3">pic</div>
+    <div class="basis-2/3 text-center">
       <p class="text-5xl font-semibold">Preeti Yuankrathok</p>
       <p class="mt-3 font-semibold">Software Developer</p>
 
@@ -25,5 +25,10 @@
         />
       </div>
     </div>
+  </div>
+
+  <div class="p-12 max-w bg-white rounded-b-xl shadow-lg flex flex-row">
+    <div class="basis-1/2">1</div>
+    <div class="basis-1/2">2</div>
   </div>
 </section>
