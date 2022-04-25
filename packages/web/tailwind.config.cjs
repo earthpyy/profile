@@ -13,7 +13,7 @@ const config = {
       emerald: colors.emerald,
       indigo: colors.indigo,
       yellow: colors.yellow,
-      primary: '#67C785',
+      primary: '#2ECA7F',
     },
   },
 
