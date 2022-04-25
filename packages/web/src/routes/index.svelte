@@ -14,9 +14,15 @@
       <p class="mt-3">Software Developer</p>
 
       <div class="flex flex-row justify-center gap-2 mt-5">
-        <Social icon="linkedin" color="#0077B5" href="https://linkedin.com/in/earthpyy" />
-        <Social icon="github" color="#171515" href="https://github.com/earthpyy" />
-        <Social icon="gitlab" color="#FC6D26" href="https://gitlab.com/earthpyy" />
+        <Social icon="linkedin" alt="LinkedIn" color="#0077B5" href="https://linkedin.com/in/earthpyy" />
+        <Social icon="github" alt="GitHub" color="#171515" href="https://github.com/earthpyy" />
+        <Social icon="gitlab" alt="GitLab" color="#DB3B21" href="https://gitlab.com/earthpyy" />
+        <Social
+          icon="stack-overflow"
+          alt="Stack Overflow"
+          color="#F47F24"
+          href="https://stackoverflow.com/users/7930117/preeti-y"
+        />
       </div>
     </div>
   </div>

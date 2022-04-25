@@ -2,10 +2,12 @@
   export let icon: string
   export let color: string
   export let href: string
+  export let alt = ''
 </script>
 
 <a
   {href}
+  {alt}
   target="_blank"
   class="bg-white text-gray-500 hoverable rounded-full cursor-pointer px-2 py-1"
   style:--hover-color={color}
