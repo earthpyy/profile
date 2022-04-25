@@ -14,8 +14,8 @@
   })
 </script>
 
-<div class="container mx-auto">
-  <header>
+<div class="container mx-auto md:px-4">
+  <header class="md:my-4">
     <Header />
   </header>
 

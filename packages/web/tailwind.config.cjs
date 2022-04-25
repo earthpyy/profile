@@ -2,7 +2,9 @@ const config = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
 
   theme: {
-    extend: {},
+    colors: {
+      primary: '#67C785',
+    },
   },
 
   plugins: [require('flowbite/plugin')],
